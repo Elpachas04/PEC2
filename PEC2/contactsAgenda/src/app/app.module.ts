@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ContactItemComponent } from './contact-item/contact-item.component';
 import { ContactListComponent } from './contact-list/contact-list.component';
+import { AddContactComponent } from './add-contact/add-contact.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ContactListComponent,
-    ContactItemComponent
+    ContactItemComponent,
+    AddContactComponent
   ],
   imports: [
     BrowserModule,

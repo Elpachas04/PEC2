@@ -26,7 +26,7 @@ export class ContactItemComponent implements OnInit {
     this.clickDatos.emit(this.persona.id);
 
   }
-
+//activará el eliminar
   clickEliminarHandler() {
     this.clickEliminar.emit(this.persona.id);
   }

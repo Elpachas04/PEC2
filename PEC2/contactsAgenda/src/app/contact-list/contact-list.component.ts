@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+// se crea objeto persona
 interface Persona {
   id: number;
   nombre: string;
@@ -38,11 +38,11 @@ export class ContactListComponent implements OnInit {
       if ( this.personaList[i].id === id ) this.personaList.splice(i,1);
     }
   }
-
+// redirigirá a detalle
   goDetail(id:number):void {
     console.log("Edit "+id);
   }
-
+ // elimna persona del listado
   onRemovePersona(id:number):void {
     console.log("Remove persona with id: "+id);
     this.removePersonaById(id);
