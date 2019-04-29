@@ -13,9 +13,7 @@ interface Persona {
 })
 export class ContactListComponent implements OnInit {
   private personaListDefaults: Array<Persona> = [
-    { id: 0, nombre: 'Antony', apellido: 'Pachas'},
-    { id: 1, nombre: 'Angelo', apellido: 'Vicente'},
-
+    { id: 0, nombre: 'John', apellido: 'Doe'}
   ];
   personaList: Array<Persona> = [];
 
