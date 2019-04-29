@@ -1,0 +1,8 @@
+<ul class="list-group">
+  <li class="list-group-item" *ngFor="let persona of personaList">
+    <app-contact-item [persona]='persona'
+                      (clickDatos)='goDetail($event)'
+                      (clickEliminar)='onRemovePersona($event)'
+    ></app-contact-item>
+  </li>
+</ul>
